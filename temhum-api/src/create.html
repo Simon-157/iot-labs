@@ -1,0 +1,290 @@
+<!-- Shared Modal Styles -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create</title>
+
+    <style>
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .modal-content {
+            background-color: #fff;
+            margin: 15% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 70%;
+            border-radius: 8px;
+            position: relative;
+        }
+
+        .close {
+            color: #aaa;
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            font-size: 24px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: #333;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        label {
+            margin: 10px 0;
+            font-weight: bold;
+        }
+
+        input,
+        select {
+            padding: 10px;
+            margin: 5px 0;
+            width: 100%;
+            box-sizing: border-box;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 10px;
+            ;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="includedContent"></div>
+    <script>
+        fetch('/header.html')
+            .then(response => response.text())
+            .then(html => {
+                document.getElementById('includedContent').innerHTML = html;
+            })
+            .catch(error => console.error('Error fetching included content:', error));
+    </script>
+    <div style="display: flex; justify-content: center; margin-top: 20px; align-items: center; ">
+
+        <button onclick="document.getElementById('addSensorLocationModal').style.display = 'block'">Add Sensor
+            Location</button>
+        <button onclick="document.getElementById('addSensorTypeModal').style.display = 'block'">Add Sensor Type</button>
+        <button onclick="document.getElementById('addSensorModal').style.display = 'block'">Add Sensor Info</button>
+    </div>
+
+    <!-- Add Sensor Location Modal -->
+    <div id="addSensorLocationModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('addSensorLocationModal')">&times;</span>
+            <h2>Add Sensor Location</h2>
+            <form id="addSensorLocationForm">
+                <label for="locationName">Location Name:</label>
+                <input type="text" id="locationName" name="locationName" required>
+                <button type="submit">Add Sensor Location</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('addSensorLocationForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+            const locationName = document.getElementById('locationName').value;
+
+            fetch('/api/sensorLocations/insert', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    LocationName: locationName
+                })
+            })
+                .then(response => {
+                    if (response.status === 200) {
+                        return response.json();
+                    } else {
+                        throw new Error('Unable to add sensor location');
+                    }
+                })
+                .then(data => {
+                    console.log('Server Response:', data); // Log the response
+                    closeModal('addSensorLocationModal');
+                })
+                .catch(error => console.error('Error adding sensor location:', error));
+        });
+
+    </script>
+
+    <!-- Add Sensor Type Modal -->
+    <div id="addSensorTypeModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('addSensorTypeModal')">&times;</span>
+            <h2>Add Sensor Type</h2>
+            <form id="addSensorTypeForm">
+                <label for="typeName">Type Name:</label>
+                <input type="text" id="typeName" name="typeName" required>
+                <button type="submit">Add Sensor Type</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('addSensorTypeForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+            const typeName = document.getElementById('typeName').value;
+
+            fetch('/api/sensorTypes/insert', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    typeName: typeName
+                })
+            })
+                .then(response => response.json())
+                .then(data => {
+                    console.log('Sensor Type added successfully:', data);
+                    closeModal('addSensorTypeModal');
+                })
+                .catch(error => console.error('Error adding sensor type:', error));
+        });
+    </script>
+    <!-- Add Sensor Modal -->
+    <div id="addSensorModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('addSensorModal')">&times;</span>
+            <h2>Add Sensor</h2>
+            <form id="addSensorForm">
+                <label for="sensorName">Sensor Name:</label>
+                <input type="text" id="sensorName" name="sensorName" required>
+
+                <label for="sensorType">Sensor Type:</label>
+                <select id="sensorType" name="sensorType" required></select>
+
+                <label for="sensorLocation">Sensor Location:</label>
+                <select id="sensorLocation" name="sensorLocation" required></select>
+
+                <button type="submit">Add Sensor</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        // Fetch sensor types and populate the sensorType dropdown
+        fetch('/api/data?type=sensorTypes')
+            .then(response => response.json())
+            .then(sensorTypes => {
+                const sensorTypeDropdown = document.getElementById('sensorType');
+                sensorTypes.forEach(type => {
+                    const option = document.createElement('option');
+                    option.value = type.SensorTypeID;
+                    option.textContent = type.TypeName;
+                    sensorTypeDropdown.appendChild(option);
+                });
+            })
+            .catch(error => console.error('Error fetching sensor types:', error));
+
+        // Fetch sensor locations and populate the sensorLocation dropdown
+        fetch('/api/data?type=sensorLocations')
+            .then(response => response.json())
+            .then(sensorLocations => {
+                const sensorLocationDropdown = document.getElementById('sensorLocation');
+                sensorLocations.forEach(location => {
+                    const option = document.createElement('option');
+                    option.value = location.SensorLocationID;
+                    option.textContent = location.LocationName;
+                    sensorLocationDropdown.appendChild(option);
+                });
+            })
+            .catch(error => console.error('Error fetching sensor locations:', error));
+
+        // Event listener for Add Sensor form submission
+        document.getElementById('addSensorForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+            const sensorName = document.getElementById('sensorName').value;
+            const sensorType = document.getElementById('sensorType').value;
+            const sensorLocation = document.getElementById('sensorLocation').value;
+
+            fetch('/api/sensors/insert', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    sensorName: sensorName,
+                    sensorType: sensorType,
+                    sensorLocation: sensorLocation
+                })
+            })
+                .then(response => response.json())
+                .then(data => {
+                    console.log('Sensor added successfully:', data);
+                    closeModal('addSensorModal');
+                })
+                .catch(error => console.error('Error adding sensor:', error));
+        });
+
+        function closeModal(modalId) {
+            const modal = document.getElementById(modalId);
+            modal.style.display = 'none';
+        }
+
+        document.addEventListener('click', function (event) {
+            const modal = document.getElementById('addSensorModal');
+            if (event.target === modal) {
+                closeModal('addSensorModal');
+            }
+        });
+
+
+         document.addEventListener('click', function (event) {
+            const modal = document.getElementById('addSensorLocationModal');
+            if (event.target === modal) {
+                closeModal('addSensorLocationModal');
+            }
+        });
+
+         document.addEventListener('click', function (event) {
+            const modal = document.getElementById('addSensorTypeModal');
+            if (event.target === modal) {
+                closeModal('addSensorTypeModal');
+            }
+        });
+
+    </script>
+
+</body>
+
+</html>

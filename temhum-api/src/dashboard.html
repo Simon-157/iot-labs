@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sensor Data</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            color: #007BFF;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            border-radius: 8px;
+        }
+        th, td {
+            padding: 15px;
+            border-bottom: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background-color: #007BFF;
+            color: #fff;
+        }
+        tr:hover {
+            background-color: #e0f7fa;
+        }
+    </style>
+</head>
+<body>
+<div id="includedContent"></div>
+<script>
+    fetch('/header.html')
+        .then(response => response.text())
+        .then(html => {
+            document.getElementById('includedContent').innerHTML = html;
+        })
+        .catch(error => console.error('Error fetching included content:', error));
+</script>
+
+    <h1>Available Sensor Data</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Sensor Name</th>
+                <th>Type Name</th>
+                <th>Location Name</th>
+                <th>Current Reading</th>
+                <th>Date Read</th>
+                <th>Time Read</th>
+            </tr>
+        </thead>
+        <tbody id="sensorDataBody">
+            <!-- Sensor data will be inserted here dynamically -->
+        </tbody>
+    </table>
+
+    <script>
+        // Fetch data from the endpoint
+        fetch('/api/data?type=sensorData')
+            .then(response => response.json())
+            .then(data => {
+                const sensorDataBody = document.getElementById('sensorDataBody');
+                data.forEach(sensor => {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `
+                        <td>${sensor.SensorName}</td>
+                        <td>${sensor.TypeName}</td>
+                        <td>${sensor.LocationName}</td>
+                        <td>${sensor.CurrentReading}</td>
+                        <td>${sensor.DateRead}</td>
+                        <td>${sensor.TimeRead}</td>
+                    `;
+                    sensorDataBody.appendChild(row);
+                });
+            })
+            .catch(error => console.error('Error fetching data:', error));
+    </script>
+</body>
+</html>
