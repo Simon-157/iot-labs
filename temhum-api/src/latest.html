@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sensor Status</title>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+
+    <style>
+        .stat-card {
+            border: 1px solid #ddd;
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .stat-card h2 {
+            margin: 0;
+        }
+
+        .stat-card p {
+            margin: 0;
+            font-size: 14px;
+            color: #888;
+        }
+
+        .stat-cards {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        button:hover {
+            cursor: pointer;
+            background-color: #0056b3;
+        }
+    </style>
+
+<body>
+    <div id="includedContent"></div>
+    <script>
+        fetch('/header.html')
+            .then(response => response.text())
+            .then(html => {
+                document.getElementById('includedContent').innerHTML = html;
+            })
+            .catch(error => console.error('Error fetching included content:', error));
+    </script>
+    <h1 style="text-align: center;">Latest Readings</h1>
+    <section class="stat-cards">
+        <div id="tempReading" class="stat-card">
+            <h2 id="temp"></h2>
+            <p>Temperature Reading</p>
+        </div>
+        <div id="humReading" class="stat-card">
+            <h2 id="hum">0</h2>
+            <p>Humidity Reading</p>
+        </div>
+        <div id="pumpStatus" class="stat-card">
+            <h2 id="pump">Off</h2>
+            <p>Pump Status</p>
+        </div>
+
+    </section>
+    <h1 style="text-align: center;">Pump Control</h1>
+    <section style="display: flex; justify-content: center; align-items: center;">
+        <div style="display: flex; gap: 10px; ">
+            <button id="autoMode" 
+                style="background-color: green; color: white; padding: 10px 20px; font-size: 16px; border: none; border-radius: 5px; cursor: pointer;">Toggle Auto Mode</button>
+            <button id="manualOn" 
+                style="background-color: blue; color: white; padding: 10px 20px; font-size: 16px; border: none; border-radius: 5px; cursor: pointer;">Manual On</button>
+            <button id="manualOff" 
+                style="background-color: red; color: white; padding: 10px 20px; font-size: 16px; border: none; border-radius: 5px; cursor: pointer;">Manual Off</button>
+        </div>
+    </section>
+
+    <script>
+
+        fetch("/api/data?type=latest")
+            .then((response) => response.json())
+            .then((data) => {
+                console.log(data);
+                if (data && data.length > 0) {
+                    var firstElement = data[0];
+                    if (
+                        "tempReading" in firstElement &&
+                        "humReading" in firstElement &&
+                        "pumpStatus" in firstElement
+                    ) {
+                        var tempElement = document.getElementById("temp");
+                        var humElement = document.getElementById("hum");
+                        var pumpElement = document.getElementById("pump");
+
+                        if (tempElement) tempElement.innerHTML = firstElement.tempReading;
+                        if (humElement) humElement.innerHTML = firstElement.humReading;
+                        if (pumpElement) pumpElement.innerHTML = firstElement.pumpStatus;
+                    } else {
+                        console.log(
+                            "One or more properties are missing from the data object"
+                        );
+                    }
+                } else {
+                    console.log("Data array is empty or not defined");
+                }
+            })
+            .catch((error) => console.error("Error:", error));
+
+
+
+        var autoMode = true;
+        var pumpState = false;
+
+        document.getElementById('autoMode').addEventListener('click', function () {
+            axios.get('/api/mode?auto=' + autoMode)
+                .then(function (response) {
+                    alert(response.data.message);
+                    autoMode = !autoMode; // Toggle the mode for the next request
+                })
+                .catch(function (error) {
+                    console.log('Error:', error);
+                    alert('Failed to change mode: ' + error.message);
+                });
+        });
+
+        document.getElementById('manualOn').addEventListener('click', function () {
+            axios.get('/pump?state=on')
+                .then(function (response) {
+                    alert(response.data.message);
+                    pumpState = true; // Set pump state to On
+                })
+                .catch(function (error) {
+                    alert('Failed to turn on pump: ' + error.message);
+                });
+        });
+
+        document.getElementById('manualOff').addEventListener('click', function () {
+            axios.get('/pump?state=off')
+                .then(function (response) {
+                    alert(response.data.message);
+                    pumpState = false; // Set pump state to Off
+                })
+                .catch(function (error) {
+                    alert('Failed to turn off pump: ' + error.message);
+                });
+        });
+    </script>
+
+    </body>
+
+    </html>

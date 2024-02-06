@@ -2,28 +2,37 @@
 #include <DHT.h>
 #include <WiFi.h>
 #include <HTTPClient.h>
-#include <time.h>  // Include time library
+#include <time.h>
 #include <WiFiUdp.h>
+#include <WiFiClient.h>
+#include <WebServer.h>
 
-#define LED_PIN 27       // Pin for external LED
-#define RED_LED_PIN 2    // Pin for Red LED
-#define BLUE_LED_PIN 23  // Pin for Blue LED
-#define LDR_PIN 33       // Pin for LDR
-#define DHT_PIN 19       // Pin for DHT sensor
+WebServer server(80);
+
+#define LED_PIN 22    // Pin for external LED
+#define BUZZER_PIN 19 // Pin for BUZZER
+#define DHT_PIN 4     // Pin for DHT sensor
 #define DHT_TYPE DHT22
 
-const char* ssid = "Galaxy A717DC1";
-const char* password = "jack123456";
-const char* serverUrl = "http://192.168.115.209:8000/api/sensorData/insert";
+unsigned long initial_reading = 0;
+unsigned long final_reading = 5000;
+
+const char *ssid = "metgoog";
+const char *password = "simon2929";
+const char *serverUrl = "http://172.20.10.3:8000/api/readings/insert";
 
 DHT dht(DHT_PIN, DHT_TYPE);
 
 WiFiUDP ntpUDP;
-const char* ntpServer = "pool.ntp.org";
-const long gmtOffset_sec = 0;      // Your GMT offset in seconds
-const int daylightOffset_sec = 0;  // Your daylight offset in seconds
+const char *ntpServer = "pool.ntp.org";
+const long gmtOffset_sec = 0;
+const int daylightOffset_sec = 0;
 
-void sendData(const char* sensorID, float reading) {
+bool autoMode = true;
+bool manualState = false;
+
+void sendData(float humidity, float temperature, char *pumpState)
+{
   HTTPClient http;
 
   http.begin(serverUrl);
@@ -43,16 +52,19 @@ void sendData(const char* sensorID, float reading) {
   strftime(currentTime, sizeof(currentTime), "%H:%M:%S", &timeinfo);
 
   // Prepare the JSON payload
-  String jsonPayload = "{\"SensorID\":\"" + String(sensorID) + "\", \"CurrentReading\":" + String(reading) + ", \"DateRead\":\"" + String(currentDate) + "\", \"TimeRead\":\"" + String(currentTime) + "\"}";
-
+  String jsonPayload = "{\"dateRead\":\"" + String(currentDate) + "\", \"timeRead\":\"" + String(currentTime) + "\", \"humReading\":\"" + String(humidity) + "\", \"temReading\":\"" + String(temperature) + "\", \"groupName\":\"SimonHafiz" + "\", \"pumpStatus\":\"" + String(pumpState) + "\"}";
+  Serial.print(jsonPayload);
   // Make the HTTP POST request
   int httpResponseCode = http.POST(jsonPayload);
 
-  if (httpResponseCode > 0) {
+  if (httpResponseCode > 0)
+  {
     Serial.print("HTTP Response code: ");
     Serial.println(httpResponseCode);
     Serial.println("Data sent successfully");
-  } else {
+  }
+  else
+  {
     Serial.print("HTTP Error code: ");
     Serial.println(httpResponseCode);
     Serial.println("Failed to send data");
@@ -62,91 +74,130 @@ void sendData(const char* sensorID, float reading) {
   http.end();
 }
 
-void setup() {
+void setup()
+{
   Serial.begin(115200);
 
   WiFi.begin(ssid, password);
   Serial.println("Connecting to WiFi");
 
   int attempts = 0;
-  while (WiFi.status() != WL_CONNECTED && attempts < 20) {  // Try connecting for up to 10 seconds
+  while (WiFi.status() != WL_CONNECTED && attempts < 20)
+  { // Try connecting for up to 10 seconds
     delay(500);
     Serial.print(".");
     attempts++;
   }
 
-  if (WiFi.status() == WL_CONNECTED) {
+  if (WiFi.status() == WL_CONNECTED)
+  {
     Serial.println("");
     Serial.print("Connected to WiFi network with IP Address: ");
     Serial.println(WiFi.localIP());
-  } else {
+  }
+  else
+  {
     Serial.println("");
     Serial.println("Failed to connect to WiFi");
     return;
   }
 
+  server.on("/mode", HTTP_GET, [](AsyncWebServerRequest *request)
+            {
+    if (request->hasParam("auto"))
+    {
+      autoMode = request->getParam("auto")->value().equals("true");
+      request->send(200, "text/plain", autoMode ? "Auto mode enabled" : "Manual mode enabled");
+    }
+    else
+    {
+      request->send(400, "text/plain", "Missing 'auto' parameter");
+    } });
+
+  server.on("/pump", HTTP_GET, [](AsyncWebServerRequest *request)
+            {
+    if (!autoMode && request->hasParam("state"))
+    {
+      pumpState = request->getParam("state")->value().equals("true");
+      request->send(200, "text/plain", pumpState ? "Pump started" : "Pump stopped");
+    }
+    else
+    {
+      request->send(400, "text/plain", "Invalid request");
+    } });
+
+  server.begin();
+
   // Initialize NTP
   configTime(gmtOffset_sec, daylightOffset_sec, ntpServer);
 
+  pinMode(BUZZER_PIN, OUTPUT); // buzzer set up
   pinMode(LED_PIN, OUTPUT);
-  pinMode(RED_LED_PIN, OUTPUT);
-  pinMode(BLUE_LED_PIN, OUTPUT);
-
-  dht.begin();
+  dht.begin(); // dht object
 }
 
+void loop()
+{
+  server.handleClient();
+  unsigned long currentMillis = millis();
+  float temp = dht.readTemperature();
+  if ((unsigned long)(currentMillis - initial_reading) >= final_reading)
+  {
+    initial_reading = final_reading;
 
-void loop() {
-  // Turn on external LED every 600ms
-  digitalWrite(LED_PIN, HIGH);
-  Serial.print("LED ON - ");
-  Serial.println(millis());
-  delay(600);
+    // Read and print temperature every 3 sec
+    float temperature = dht.readTemperature();
+    float humidity = dht.readHumidity();
 
-  // Turn off external LED every 600ms
-  digitalWrite(LED_PIN, LOW);
-  Serial.print("LED OFF - ");
-  Serial.println(millis());
-  delay(600);
+    // Check if any reads failed
+    if (isnan(temperature) || isnan(humidity))
+    {
+      Serial.println("Failed to read from DHT sensor!");
+      return;
+    } // end
 
-  // Read and print temperature every 3 sec
-  float temperature = dht.readTemperature();
-  Serial.print("Temperature: ");
-  Serial.print(temperature);
-  sendData("2", temperature);
-  Serial.print(" °C - ");
-  Serial.println(millis());
-  delay(3000);
+    Serial.print("Temperature: ");
+    Serial.print(temperature);
 
-  // Read and print humidity every 3 sec
-  float humidity = dht.readHumidity();
-  Serial.print("Humidity: ");
-  Serial.print(humidity);
+    Serial.print(" °C - ");
+    Serial.println(millis());
 
-  sendData("3", humidity);
-  Serial.print(" % - ");
-  Serial.println(millis());
-  delay(3000);
+    Serial.print("Humidity: ");
+    Serial.print(humidity);
+    Serial.print(" % - ");
+    Serial.println(millis());
 
-  // Read and print LDR value every 1.5 sec
-  int ldrValue = analogRead(LDR_PIN);
-  Serial.print("LDR Value: ");
-  Serial.print(ldrValue);
-  Serial.print(" - ");
-  Serial.println(millis());
-  delay(1500);
+    tone(BUZZER_PIN, 1000); // send 1k HZ frequency
+    delay(1000);
+    noTone(BUZZER_PIN);
+    delay(1000);
 
-  // Turn on Red LED if temperature is higher than 26
-  if (temperature > 26) {
-    digitalWrite(RED_LED_PIN, HIGH);
-  } else {
-    digitalWrite(RED_LED_PIN, LOW);
-  }
+    char *pumpState;
 
-  // Turn on Blue LED if LDR value indicates darkness
-  if (ldrValue < 500) {
-    digitalWrite(BLUE_LED_PIN, HIGH);
-  } else {
-    digitalWrite(BLUE_LED_PIN, LOW);
+    if (autoMode)
+    {
+      if (temperature > 29)
+      {
+        digitalWrite(LED_PIN, HIGH);
+        pumpState = "ON";
+      }
+      else
+      {
+        digitalWrite(LED_PIN, LOW);
+        pumpState = "OFF";
+      }
+    }
+    else
+    {
+      if (manualState)
+      {
+        digitalWrite(LED_PIN, HIGH);
+      }
+      else
+      {
+        digitalWrite(LED_PIN, LOW);
+      }
+    }
+    sendData(humidity, temperature, pumpState);
   }
 }

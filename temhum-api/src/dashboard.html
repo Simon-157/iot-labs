@@ -54,12 +54,13 @@
     <table>
         <thead>
             <tr>
-                <th>Sensor Name</th>
-                <th>Type Name</th>
-                <th>Location Name</th>
-                <th>Current Reading</th>
+                <th>Reading ID</th>
                 <th>Date Read</th>
                 <th>Time Read</th>
+                <th>Temperature Reading</th>
+                <th>Humidity Reading</th>
+                <th>Group Name</th>
+                <th>Pump Status</th>
             </tr>
         </thead>
         <tbody id="sensorDataBody">
@@ -69,19 +70,20 @@
 
     <script>
         // Fetch data from the endpoint
-        fetch('/api/data?type=sensorData')
+        fetch('/api/data?type=all')
             .then(response => response.json())
             .then(data => {
                 const sensorDataBody = document.getElementById('sensorDataBody');
                 data.forEach(sensor => {
                     const row = document.createElement('tr');
                     row.innerHTML = `
-                        <td>${sensor.SensorName}</td>
-                        <td>${sensor.TypeName}</td>
-                        <td>${sensor.LocationName}</td>
-                        <td>${sensor.CurrentReading}</td>
-                        <td>${sensor.DateRead}</td>
-                        <td>${sensor.TimeRead}</td>
+                        <td>${sensor.readingID}</td>
+                        <td>${sensor.dateRead}</td>
+                        <td>${sensor.timeRead}</td>
+                        <td>${sensor.tempReading}</td>
+                        <td>${sensor.humReading}</td>
+                        <td>${sensor.groupName}</td>
+                        <td>${sensor.pumpStatus}</td>
                     `;
                     sensorDataBody.appendChild(row);
                 });
