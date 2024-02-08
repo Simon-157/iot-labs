@@ -3,7 +3,7 @@
 
 <head>
     <title>Sensor Status</title>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
 
     <style>
         .stat-card {
@@ -111,13 +111,12 @@
             })
             .catch((error) => console.error("Error:", error));
 
-
-
         var autoMode = true;
         var pumpState = false;
 
+
         document.getElementById('autoMode').addEventListener('click', function () {
-            axios.get('/api/mode?auto=' + autoMode)
+            axios.get('/mode?auto=' + autoMode)
                 .then(function (response) {
                     alert(response.data.message);
                     autoMode = !autoMode; // Toggle the mode for the next request
@@ -129,7 +128,7 @@
         });
 
         document.getElementById('manualOn').addEventListener('click', function () {
-            axios.get('/pump?state=on')
+            axios.get('/pump?state=true')
                 .then(function (response) {
                     alert(response.data.message);
                     pumpState = true; // Set pump state to On
@@ -140,7 +139,7 @@
         });
 
         document.getElementById('manualOff').addEventListener('click', function () {
-            axios.get('/pump?state=off')
+            axios.get('/pump?state=false')
                 .then(function (response) {
                     alert(response.data.message);
                     pumpState = false; // Set pump state to Off

@@ -6,8 +6,9 @@
 #include <WiFiUdp.h>
 #include <WiFiClient.h>
 #include <WebServer.h>
+#include <ESPAsyncWebServer.h>
 
-WebServer server(80);
+WebServer server(3000);
 
 #define LED_PIN 22    // Pin for external LED
 #define BUZZER_PIN 19 // Pin for BUZZER
@@ -102,29 +103,28 @@ void setup()
     return;
   }
 
-  server.on("/mode", HTTP_GET, [](AsyncWebServerRequest *request)
-            {
-    if (request->hasParam("auto"))
-    {
-      autoMode = request->getParam("auto")->value().equals("true");
-      request->send(200, "text/plain", autoMode ? "Auto mode enabled" : "Manual mode enabled");
-    }
-    else
-    {
-      request->send(400, "text/plain", "Missing 'auto' parameter");
-    } });
 
-  server.on("/pump", HTTP_GET, [](AsyncWebServerRequest *request)
-            {
-    if (!autoMode && request->hasParam("state"))
-    {
-      pumpState = request->getParam("state")->value().equals("true");
-      request->send(200, "text/plain", pumpState ? "Pump started" : "Pump stopped");
-    }
-    else
-    {
-      request->send(400, "text/plain", "Invalid request");
-    } });
+  server.on("/mode", HTTP_GET, []() {
+  if (server.hasArg("auto")) {
+    autoMode = server.arg("auto").equals("true");
+    server.send(200, "text/plain", autoMode ? "Auto mode enabled" : "Manual mode enabled");
+  } else {
+    server.send(400, "text/plain", "Missing 'auto' parameter");
+  }
+});
+
+server.on("/pump", HTTP_GET, []() {
+  if (!autoMode && server.hasArg("state")) {
+    manualState = server.arg("state").equals("true");
+    server.send(200, "text/plain", manualState ? "Pump started" : "Pump stopped");
+  } else {
+    server.send(400, "text/plain", "Invalid request");
+  }
+});
+
+  server.onNotFound([]() {
+    server.send(404, "text/plain", "Not found");
+  });
 
   server.begin();
 

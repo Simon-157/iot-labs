@@ -10,7 +10,7 @@ dotenv.config();
 
 const app = express();
 const port = process.env.PORT || 3000;
-const ESP32_IP = process.env.ESP32_IP || 'http://38.0.101.76:80';
+const ESP32_IP = process.env.ESP32_IP || 'http://172.20.10.2:3000';
 
 app.use(bodyParser.json());
 
@@ -131,6 +131,6 @@ app.get('/pump', async (req, res) => {
 
 
 
-app.listen(port, '172.16.10.104', () => {
+app.listen(port, '172.20.10.3', () => {
     logger.info(`Server listening at http://0.0.0.0:${port}`);
 });

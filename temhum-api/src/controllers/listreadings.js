@@ -14,7 +14,7 @@ const getAllSensorData = (req, res) => {
 };
 
 const getLatTenRecords = (req, res) => {
-    const query = `SELECT * FROM SensorReadings ORDER BY timeRead DESC LIMIT 10 `;
+    const query = `SELECT * FROM SensorReadings ORDER BY (dateRead) DESC LIMIT 10 `;
     db.query(query, (err, results) => {
         if (err) {
             logger.error('Error fetching data: ' + err.stack);
