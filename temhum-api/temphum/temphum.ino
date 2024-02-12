@@ -170,7 +170,7 @@ void loop()
     Serial.println(millis());
 
     if (currentMillis - lastToneMillis >= 1000) { // Check if 1 second has passed since the last tone
-      tone(BUZZER_PIN, 1000); // send 1k HZ frequency
+      tone(BUZZER_PIN, 1000); // send 1k HZ freq
       lastToneMillis = currentMillis; // Update the last tone time
     } else {
       noTone(BUZZER_PIN);
