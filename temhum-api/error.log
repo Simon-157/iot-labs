@@ -461,3 +461,4 @@
 {"base":"http://localhost","code":"ERR_INVALID_URL","input":"http://172.20.10.2:3000h/pump?state=false","level":"error"}
 {"base":"http://localhost","code":"ERR_INVALID_URL","input":"http://172.20.10.2:3000h/mode?auto=true","level":"error"}
 {"base":"http://localhost","code":"ERR_INVALID_URL","input":"http://172.20.10.2:3000h/mode?auto=true","level":"error"}
+{"code":"ECONNABORTED","expected":137,"length":137,"level":"error","message":"request aborted","received":0,"type":"request.aborted"}

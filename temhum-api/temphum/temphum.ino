@@ -136,14 +136,16 @@ server.on("/pump", HTTP_GET, []() {
   dht.begin(); // dht object
 }
 
+
 void loop()
 {
   server.handleClient();
   unsigned long currentMillis = millis();
+  static unsigned long lastToneMillis = 0; // Added to control the buzzer tone
   float temp = dht.readTemperature();
   if ((unsigned long)(currentMillis - initial_reading) >= final_reading)
   {
-    initial_reading = final_reading;
+    initial_reading = currentMillis; // Reset the initial_reading to the current time
 
     // Read and print temperature every 3 sec
     float temperature = dht.readTemperature();
@@ -167,10 +169,12 @@ void loop()
     Serial.print(" % - ");
     Serial.println(millis());
 
-    tone(BUZZER_PIN, 1000); // send 1k HZ frequency
-    delay(1000);
-    noTone(BUZZER_PIN);
-    delay(1000);
+    if (currentMillis - lastToneMillis >= 1000) { // Check if 1 second has passed since the last tone
+      tone(BUZZER_PIN, 1000); // send 1k HZ frequency
+      lastToneMillis = currentMillis; // Update the last tone time
+    } else {
+      noTone(BUZZER_PIN);
+    }
 
     char *pumpState;
 
