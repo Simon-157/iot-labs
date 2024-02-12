@@ -1,777 +1,387 @@
 {"level":"info","message":"Server listening at http://0.0.0.0:8000"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:41:02 30.40 59.50 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:31:34 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:41:04 30.40 59.50 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:31:36 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:41:06 30.40 59.50 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:31:38 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:41:08 30.40 59.60 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:31:41 30.80 70.30 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:41:11 30.40 59.60 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:31:43 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:41:13 30.40 59.60 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:31:45 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:41:15 30.40 59.60 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:31:47 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:41:17 30.40 59.60 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:31:50 30.80 70.30 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:41:19 30.40 59.60 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:31:52 30.80 70.20 SimonHafiz ON"}
+{"level":"info","message":"Sensor data inserted successfully"}
+{"base":"http://localhost","code":"ERR_INVALID_URL","input":"http://172.20.10.2:3000h/mode?auto=true","level":"error"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:31:54 30.80 70.30 SimonHafiz ON"}
+{"level":"info","message":"Sensor data inserted successfully"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:31:56 30.80 70.30 SimonHafiz ON"}
+{"level":"info","message":"Sensor data inserted successfully"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:31:58 30.80 70.40 SimonHafiz ON"}
+{"level":"info","message":"Sensor data inserted successfully"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:32:01 30.80 70.30 SimonHafiz ON"}
+{"level":"info","message":"Sensor data inserted successfully"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:32:04 30.80 70.30 SimonHafiz ON"}
+{"level":"info","message":"Sensor data inserted successfully"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:32:06 30.80 70.30 SimonHafiz ON"}
+{"level":"info","message":"Sensor data inserted successfully"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:32:09 30.80 70.20 SimonHafiz ON"}
+{"level":"info","message":"Sensor data inserted successfully"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:32:11 30.80 70.30 SimonHafiz ON"}
+{"level":"info","message":"Sensor data inserted successfully"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:32:13 30.80 70.20 SimonHafiz ON"}
+{"level":"info","message":"Sensor data inserted successfully"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:32:15 30.80 70.20 SimonHafiz ON"}
+{"level":"info","message":"Sensor data inserted successfully"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:32:17 30.80 70.20 SimonHafiz ON"}
+{"level":"info","message":"Sensor data inserted successfully"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:32:20 30.80 70.20 SimonHafiz ON"}
+{"level":"info","message":"Sensor data inserted successfully"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:32:22 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
 {"level":"info","message":"Server listening at http://0.0.0.0:8000"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:41:22 30.30 59.60 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:32:26 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Server listening at http://0.0.0.0:8000"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:41:26 30.40 59.90 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:32:29 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:41:28 30.30 60.00 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:32:31 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:41:30 30.30 60.00 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:32:34 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:41:32 30.30 59.90 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:32:36 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:41:35 30.40 59.80 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:32:38 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:41:37 30.40 59.70 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:32:40 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:41:39 30.30 59.70 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:32:43 30.80 70.30 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Server listening at http://0.0.0.0:8000"}
-{"level":"info","message":"Server listening at http://0.0.0.0:8000"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:41:41 30.30 59.70 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:32:45 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:41:44 30.40 59.70 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:32:47 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:41:46 30.30 59.70 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:32:49 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:41:48 30.30 59.70 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:32:51 30.80 70.30 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:41:51 30.30 59.80 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:32:53 30.80 70.30 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:41:53 30.30 59.90 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:32:55 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:41:55 30.30 60.00 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:32:58 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:41:57 30.30 60.10 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:33:00 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:41:59 30.30 60.10 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:33:02 30.80 70.30 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http"],"env":{},"headers":{"Accept":"application/json, text/plain, */*","Accept-Encoding":"gzip, compress, deflate, br","User-Agent":"axios/1.6.7"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"172.20.10.3/mode?auto=true","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 404","name":"AxiosError","stack":"AxiosError: Request failed with status code 404\n    at settle (/home/metgoog/Documents/projects/iot/temhum-api/node_modules/axios/dist/node/axios.cjs:1967:12)\n    at IncomingMessage.handleStreamEnd (/home/metgoog/Documents/projects/iot/temhum-api/node_modules/axios/dist/node/axios.cjs:3066:11)\n    at IncomingMessage.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/home/metgoog/Documents/projects/iot/temhum-api/node_modules/axios/dist/node/axios.cjs:3877:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async /home/metgoog/Documents/projects/iot/temhum-api/src/index.js:107:22","status":404}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:42:01 30.30 60.10 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:33:05 30.80 70.30 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:42:04 30.30 60.10 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:33:07 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:42:06 30.30 60.10 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:33:09 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:42:08 30.30 60.20 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:33:12 30.80 70.10 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:42:10 30.30 60.20 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:33:14 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:42:12 30.30 60.20 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:33:16 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:42:15 30.30 60.10 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:33:18 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:42:17 30.30 60.00 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:33:20 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:42:20 30.30 59.90 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:33:22 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:42:22 30.30 59.80 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:33:25 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:42:24 30.30 59.80 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:33:27 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:42:27 30.30 59.70 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:33:29 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:42:29 30.30 59.80 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:33:31 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:42:31 30.30 59.70 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:33:34 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:42:33 30.30 59.80 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:33:36 30.80 70.30 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:42:36 30.30 59.90 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:33:38 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:42:38 30.30 60.00 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:33:41 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:42:40 30.30 60.00 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:33:43 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:42:42 30.30 59.90 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:33:45 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:42:44 30.30 59.90 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:33:48 30.80 70.30 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:42:46 30.30 59.90 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:33:50 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:42:48 30.30 59.90 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:33:53 30.80 70.30 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:42:51 30.30 59.80 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:33:55 30.80 70.30 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:42:53 30.30 59.80 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:33:57 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:42:55 30.30 59.80 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:33:59 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:42:57 30.30 59.80 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:34:02 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:42:59 30.30 59.90 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:34:04 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:43:01 30.30 60.00 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:34:06 30.80 70.30 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:43:04 30.30 60.00 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:34:08 30.80 70.30 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:43:06 30.30 60.00 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:34:11 30.80 70.30 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:43:08 30.30 59.90 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:34:13 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:43:10 30.30 59.90 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:34:15 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:43:12 30.30 59.90 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:34:17 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:43:14 30.30 60.00 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:34:20 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:43:16 30.30 60.00 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:34:22 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:43:18 30.30 59.90 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:34:24 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:43:21 30.30 59.90 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:34:27 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:43:23 30.30 59.90 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:34:29 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:43:25 30.30 60.00 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:34:31 30.80 70.30 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:43:27 30.30 60.10 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:34:33 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:43:29 30.30 60.00 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:34:35 30.80 70.30 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:43:32 30.40 59.90 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:34:37 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:43:34 30.40 59.90 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:34:40 30.80 70.30 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:43:36 30.30 59.80 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:34:42 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:43:38 30.40 59.90 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:34:44 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:43:40 30.30 59.90 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:34:46 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:43:42 30.40 59.90 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:34:48 30.80 70.30 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:43:44 30.30 59.80 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:34:50 30.80 70.30 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:43:46 30.30 59.80 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:34:52 30.80 70.40 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:43:49 30.30 59.90 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:34:54 30.80 70.40 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:43:51 30.30 60.00 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:34:57 30.90 70.30 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:43:53 30.40 60.10 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:34:59 30.80 70.30 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:43:55 30.30 60.30 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:35:01 30.90 70.30 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:43:57 30.30 60.40 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:35:03 30.80 70.30 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:43:59 30.40 60.50 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:35:06 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:44:02 30.30 60.50 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:35:08 30.90 70.30 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:44:04 30.30 60.30 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:35:10 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:44:06 30.30 60.10 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:35:13 30.90 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:44:08 30.30 59.90 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:35:15 30.90 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:44:10 30.40 59.80 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:35:17 30.90 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:44:13 30.30 59.80 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:35:19 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:44:15 30.40 59.90 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:35:21 30.90 70.10 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:44:17 30.40 59.90 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:35:23 30.80 70.10 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:44:19 30.30 60.00 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:35:25 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:44:21 30.40 59.90 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:35:27 30.90 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:44:23 30.30 59.80 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:35:30 30.90 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:44:26 30.30 59.80 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:35:32 30.90 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:44:28 30.40 59.80 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:35:34 30.90 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:44:30 30.40 59.90 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:35:36 30.90 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:44:32 30.30 59.90 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:35:38 30.90 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:44:34 30.40 60.00 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:35:40 30.80 70.30 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:44:37 30.40 59.90 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:35:42 30.80 70.30 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:44:39 30.40 59.90 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:35:45 30.90 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:44:42 30.40 59.80 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:35:47 30.90 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:44:44 30.40 59.90 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:35:50 30.90 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:44:46 30.40 60.00 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:35:52 30.90 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:44:48 30.40 60.10 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:35:54 30.90 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:44:51 30.40 60.10 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:35:56 30.90 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:44:53 30.40 60.00 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:35:59 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:44:55 30.40 59.80 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:36:01 30.90 70.30 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:44:57 30.40 59.80 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:36:03 30.90 70.30 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:45:00 30.40 59.70 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:36:05 30.90 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:45:02 30.40 59.70 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:36:07 30.90 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:45:04 30.40 59.80 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:36:09 30.90 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:45:06 30.40 59.80 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:36:11 30.90 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:45:08 30.40 59.80 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:36:14 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:45:11 30.40 59.70 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:36:16 30.90 70.10 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:45:13 30.40 59.60 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:36:18 30.80 70.10 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:45:16 30.30 59.60 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:36:20 30.80 70.10 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:45:19 30.40 59.60 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:36:22 30.90 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:45:21 30.40 59.50 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:36:25 30.90 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:45:24 30.30 59.50 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:36:27 30.90 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:45:27 30.40 59.50 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:36:29 30.90 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:45:29 30.40 59.50 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:36:31 30.90 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:45:31 30.40 59.50 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:36:33 30.90 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:45:34 30.40 59.40 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:36:36 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:45:36 30.30 59.50 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:36:38 30.80 70.10 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:45:38 30.40 59.50 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:36:41 30.90 70.10 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:45:41 30.30 59.60 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:36:43 30.90 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:45:43 30.30 59.80 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:36:45 30.90 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:45:44 30.40 59.90 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:36:47 30.80 70.10 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:45:46 30.30 59.90 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:36:49 30.80 70.10 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:45:48 30.30 59.80 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:36:51 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:45:50 30.30 59.70 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:36:54 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:45:53 30.30 59.60 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:36:56 30.90 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:45:55 30.40 59.50 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:36:58 30.90 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:45:58 30.30 59.60 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:37:00 30.90 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:46:00 30.30 59.60 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:37:03 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:46:02 30.40 59.50 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:37:05 30.90 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:46:03 30.40 59.50 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:37:07 30.80 70.10 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:46:05 30.30 59.50 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:37:09 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:46:07 30.30 59.50 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:37:14 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:46:10 30.30 59.50 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:37:16 30.90 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:46:15 30.30 59.50 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:37:22 30.90 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:46:17 30.40 59.80 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:37:27 30.90 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:46:19 30.40 60.00 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:37:30 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:46:21 30.40 60.10 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:37:32 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:46:24 30.30 60.10 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:37:35 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:46:26 30.30 60.00 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:37:37 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:46:28 30.40 59.90 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:37:41 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:46:30 30.40 59.70 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:37:43 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:46:33 30.40 59.60 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:37:45 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:46:35 30.40 59.50 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:37:47 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:46:37 30.40 59.50 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:37:49 30.80 70.30 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:46:39 30.40 59.40 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:37:52 30.80 70.30 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:46:41 30.40 59.20 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:37:54 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:46:43 30.40 59.20 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:37:56 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:46:45 30.40 59.20 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 1970-01-01 00:00:07 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:46:47 30.40 59.20 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 1970-01-01 00:00:12 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:46:49 30.40 59.20 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 1970-01-01 00:00:16 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:46:51 30.40 59.20 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 1970-01-01 00:00:21 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:47:00 30.40 59.20 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 1970-01-01 00:00:23 30.80 70.30 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:47:05 30.40 59.30 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:39:05 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:47:08 30.40 59.30 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:39:08 30.80 70.20 SimonHafiz OFF"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:47:10 30.40 59.30 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:39:12 30.80 70.20 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 08:47:13 30.40 59.40 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:39:14 30.80 70.30 SimonHafiz ON"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 1970-01-01 00:00:07 30.50 59.90 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:39:22 30.80 70.20 SimonHafiz OFF"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:01:24 30.50 59.90 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:39:27 30.80 70.30 SimonHafiz OFF"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:01:26 30.50 59.70 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:39:29 30.80 70.20 SimonHafiz OFF"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:01:28 30.50 59.30 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:39:31 30.80 70.20 SimonHafiz OFF"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:01:30 30.50 59.20 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:39:33 30.80 70.20 SimonHafiz OFF"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:01:32 30.50 59.10 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:39:35 30.80 70.20 SimonHafiz OFF"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:01:35 30.50 59.20 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:39:38 30.80 70.20 SimonHafiz OFF"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:01:37 30.50 59.20 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:39:41 30.80 70.20 SimonHafiz OFF"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:01:39 30.50 59.10 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:39:48 30.90 70.90 SimonHafiz OFF"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:01:41 30.50 59.00 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:39:50 30.90 70.60 SimonHafiz OFF"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:01:43 30.50 59.10 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:39:54 31.00 79.40 SimonHafiz OFF"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:01:45 30.50 59.30 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:39:58 31.90 77.90 SimonHafiz OFF"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:01:47 30.50 59.20 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:40:07 31.80 81.60 SimonHafiz OFF"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:01:49 30.50 59.20 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:40:12 31.60 73.50 SimonHafiz OFF"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:01:51 30.50 59.20 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:40:21 31.60 69.80 SimonHafiz OFF"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:01:53 30.50 59.00 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:40:28 31.50 68.60 SimonHafiz OFF"}
 {"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:01:55 30.50 58.90 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:01:58 30.50 59.00 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:02:00 30.50 59.20 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:02:02 30.50 59.20 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:02:04 30.50 59.20 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:02:06 30.50 59.40 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:02:08 30.50 59.60 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:02:10 30.50 59.90 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:02:12 30.50 59.90 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:02:14 30.50 59.60 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:02:16 30.50 59.30 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:02:18 30.60 59.10 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:02:20 30.50 59.10 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:02:22 30.50 59.30 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:02:25 30.50 59.40 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:02:27 30.60 59.40 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:02:29 30.60 59.20 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:02:31 30.50 59.00 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:02:33 30.50 58.90 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:02:35 30.50 58.70 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:02:37 30.50 58.60 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:02:39 30.50 58.50 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:02:41 30.50 58.50 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:02:43 30.50 58.40 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:02:45 30.50 58.40 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:02:47 30.50 58.40 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:02:49 30.50 58.40 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:02:51 30.50 58.40 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:02:53 30.50 58.40 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:02:56 30.50 58.40 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:02:58 30.50 58.40 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Server listening at http://0.0.0.0:8000"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:03:00 30.50 58.40 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:03:02 30.50 58.40 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:03:04 30.50 58.50 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Server listening at http://0.0.0.0:8000"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:03:06 30.50 58.40 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:03:08 30.50 58.40 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:03:10 30.50 58.40 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:03:12 30.50 58.40 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:03:14 30.50 58.50 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:03:17 30.50 58.50 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:03:19 30.40 58.50 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:03:21 30.40 58.60 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:03:23 30.40 58.60 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:03:25 30.40 58.60 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:03:27 30.40 58.60 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:03:29 30.40 58.60 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:03:31 30.40 58.50 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:03:33 30.40 58.60 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:03:35 30.40 58.90 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:03:37 30.40 59.60 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:03:39 30.40 59.90 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:03:42 30.40 59.70 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:03:44 30.40 59.40 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:03:46 30.40 59.10 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:03:48 30.40 59.00 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:03:50 30.40 58.90 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:03:52 30.40 59.00 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:03:54 30.40 59.00 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:03:56 30.40 58.80 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:03:58 30.40 58.70 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:04:00 30.40 58.60 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:04:02 30.40 58.50 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:04:04 30.40 58.70 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:04:06 30.40 59.00 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:04:08 30.40 59.20 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:04:10 30.40 59.40 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:04:13 30.40 59.20 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:04:15 30.40 59.00 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:04:17 30.40 58.90 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:04:19 30.40 59.00 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:04:21 30.40 59.00 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:04:23 30.40 58.90 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:04:25 30.40 58.80 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:04:27 30.40 58.80 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:04:29 30.40 58.90 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:04:31 30.40 59.10 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:04:33 30.40 59.20 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:04:35 30.40 59.10 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:04:37 30.40 59.00 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:04:40 30.40 58.90 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:04:42 30.40 58.80 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:04:44 30.30 58.80 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:04:46 30.40 58.70 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:04:48 30.40 58.90 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:04:50 30.40 59.10 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:04:52 30.40 59.00 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:04:54 30.30 59.00 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:04:56 30.30 59.30 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:04:58 30.30 60.30 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:05:00 30.30 60.60 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:05:02 30.30 60.90 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:05:04 30.30 60.90 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:05:06 30.30 61.00 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:05:08 30.30 61.00 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:05:11 30.30 60.90 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:05:15 30.30 60.70 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:05:17 30.40 60.70 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:05:19 30.40 61.10 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:05:21 30.30 60.90 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:05:23 30.40 60.90 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:05:25 30.30 60.80 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:05:27 30.40 61.00 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:05:29 30.40 61.20 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:05:31 30.30 61.00 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:05:33 30.40 61.10 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:05:35 30.40 61.00 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:05:37 30.40 60.70 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:05:40 30.40 60.40 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:05:41 30.40 60.30 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:05:44 30.40 60.30 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:05:46 30.40 60.40 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:05:48 30.40 60.80 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:05:50 30.40 61.00 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:05:52 30.40 61.20 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:05:54 30.50 61.30 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:05:56 30.50 61.30 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:05:58 30.40 61.30 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:06:00 30.50 61.20 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:06:02 30.50 61.00 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:06:04 30.50 61.10 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:06:06 30.50 61.20 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:06:08 30.50 61.40 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:06:11 30.50 61.10 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:06:13 30.50 60.70 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:06:15 30.50 60.00 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:06:17 30.50 59.80 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:06:19 30.50 59.70 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:06:21 30.50 59.70 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:06:23 30.50 59.80 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:06:25 30.50 60.10 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:06:27 30.50 60.40 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:06:29 30.50 60.40 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:06:31 30.50 60.20 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:06:33 30.50 59.90 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:06:35 30.50 59.70 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:06:38 30.50 59.50 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:06:40 30.50 59.70 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:06:42 30.60 59.80 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:06:44 30.50 59.40 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:06:46 30.50 59.10 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:06:48 30.50 59.00 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:06:50 30.50 59.10 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:06:52 30.50 59.30 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:06:54 30.50 59.30 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:06:56 30.50 59.10 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:06:58 30.50 59.00 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:07:00 30.50 58.80 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:07:02 30.50 58.50 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:07:04 30.50 58.40 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:07:06 30.50 58.40 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:07:09 30.50 58.40 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:07:11 30.50 58.30 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:07:13 30.50 58.30 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:07:15 30.50 58.30 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:07:17 30.50 58.40 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:07:19 30.50 58.60 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:07:21 30.50 58.70 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:07:23 30.50 59.00 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:07:25 30.50 59.10 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:07:27 30.50 59.30 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:07:29 30.60 59.20 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:07:31 30.50 59.00 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:07:33 30.50 58.70 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:07:36 30.50 58.80 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:07:38 30.50 58.90 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:07:40 30.50 58.60 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:07:42 30.50 58.40 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:07:44 30.50 58.30 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:07:46 30.50 58.30 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:07:48 30.50 58.50 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:07:50 30.50 58.50 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:07:52 30.50 58.40 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:07:54 30.50 58.20 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:07:56 30.50 58.20 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:07:58 30.50 58.30 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:08:00 30.50 58.30 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:08:02 30.50 58.30 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:08:05 30.50 58.20 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:08:07 30.50 58.10 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:08:09 30.50 58.10 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:08:11 30.50 58.30 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:08:13 30.50 58.90 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Server listening at http://0.0.0.0:8000"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:08:15 30.50 59.40 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:08:17 30.50 59.60 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:08:19 30.50 59.80 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:08:21 30.50 60.00 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:08:23 30.50 60.30 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:08:25 30.50 60.20 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:08:27 30.50 60.10 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:08:29 30.50 60.20 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:08:31 30.50 60.20 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:08:34 30.50 60.30 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:08:36 30.50 60.50 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:08:38 30.50 60.70 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:08:40 30.50 60.30 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:08:42 30.50 60.10 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:08:44 30.50 60.40 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:08:46 30.50 60.60 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:08:48 30.50 60.50 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:08:50 30.50 60.00 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:08:52 30.50 59.60 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:08:54 30.50 59.20 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:08:56 30.50 58.80 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:08:58 30.50 58.50 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:09:00 30.50 58.30 SimonHafiz ON"}
-{"level":"info","message":"Sensor data inserted successfully"}
-{"level":"info","message":"Inserting sensor data: 2024-02-08 09:09:02 30.50 58.10 SimonHafiz ON"}
+{"level":"info","message":"Inserting sensor data: 2024-02-12 10:40:30 31.50 68.80 SimonHafiz OFF"}
 {"level":"info","message":"Sensor data inserted successfully"}

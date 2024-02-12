@@ -71,45 +71,62 @@
     <h1 style="text-align: center;">Pump Control</h1>
     <section style="display: flex; justify-content: center; align-items: center;">
         <div style="display: flex; gap: 10px; ">
-            <button id="autoMode" 
-                style="background-color: green; color: white; padding: 10px 20px; font-size: 16px; border: none; border-radius: 5px; cursor: pointer;">Toggle Auto Mode</button>
-            <button id="manualOn" 
-                style="background-color: blue; color: white; padding: 10px 20px; font-size: 16px; border: none; border-radius: 5px; cursor: pointer;">Manual On</button>
-            <button id="manualOff" 
-                style="background-color: red; color: white; padding: 10px 20px; font-size: 16px; border: none; border-radius: 5px; cursor: pointer;">Manual Off</button>
+            <button id="autoMode"
+                style="background-color: green; color: white; padding: 10px 20px; font-size: 16px; border: none; border-radius: 5px; cursor: pointer;">Toggle
+                Auto Mode</button>
+            <button id="manualOn"
+                style="background-color: blue; color: white; padding: 10px 20px; font-size: 16px; border: none; border-radius: 5px; cursor: pointer;">Manual
+                On</button>
+            <button id="manualOff"
+                style="background-color: red; color: white; padding: 10px 20px; font-size: 16px; border: none; border-radius: 5px; cursor: pointer;">Manual
+                Off</button>
         </div>
     </section>
 
     <script>
 
-        fetch("/api/data?type=latest")
-            .then((response) => response.json())
-            .then((data) => {
-                console.log(data);
-                if (data && data.length > 0) {
-                    var firstElement = data[0];
-                    if (
-                        "tempReading" in firstElement &&
-                        "humReading" in firstElement &&
-                        "pumpStatus" in firstElement
-                    ) {
-                        var tempElement = document.getElementById("temp");
-                        var humElement = document.getElementById("hum");
-                        var pumpElement = document.getElementById("pump");
-
-                        if (tempElement) tempElement.innerHTML = firstElement.tempReading;
-                        if (humElement) humElement.innerHTML = firstElement.humReading;
-                        if (pumpElement) pumpElement.innerHTML = firstElement.pumpStatus;
+        // Function to update sensor readings and pump state
+        function updateData() {
+            fetch("/api/data?type=latest")
+                .then((response) => response.json())
+                .then((data) => {
+                    if (data && data.length > 0) {
+                        var firstElement = data[0];
+                        if (
+                            "tempReading" in firstElement &&
+                            "humReading" in firstElement &&
+                            "pumpStatus" in firstElement
+                        ) {
+                            var tempElement = document.getElementById("temp");
+                            var humElement = document.getElementById("hum");
+                            var pumpElement = document.getElementById("pump");
+                            if (tempElement) tempElement.innerHTML = firstElement.tempReading;
+                            if (humElement) humElement.innerHTML = firstElement.humReading;
+                            if (pumpElement) pumpElement.innerHTML = firstElement.pumpStatus;
+                        } else {
+                            console.log(
+                                "One or more properties are missing from the data object"
+                            );
+                        }
                     } else {
-                        console.log(
-                            "One or more properties are missing from the data object"
-                        );
+                        console.log("Data array is empty or not defined");
                     }
-                } else {
-                    console.log("Data array is empty or not defined");
-                }
-            })
-            .catch((error) => console.error("Error:", error));
+                })
+                .catch((error) => console.error("Error:", error));
+        }
+
+        // Function to update data every second
+        function startDataUpdate() {
+            // Call the updateData function immediately
+            updateData();
+            // Set interval to call updateData function every second
+            setInterval(updateData, 1000);
+        }
+
+        // Start updating data
+        startDataUpdate();
+
+
 
         var autoMode = true;
         var pumpState = false;
@@ -150,6 +167,6 @@
         });
     </script>
 
-    </body>
+</body>
 
-    </html>
+</html>

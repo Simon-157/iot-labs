@@ -192,10 +192,13 @@ void loop()
       if (manualState)
       {
         digitalWrite(LED_PIN, HIGH);
+        pumpState = "ON";
+
       }
       else
       {
         digitalWrite(LED_PIN, LOW);
+        pumpState = "OFF";
       }
     }
     sendData(humidity, temperature, pumpState);
